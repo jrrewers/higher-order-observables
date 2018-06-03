@@ -9,12 +9,10 @@
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
     "build": "webpack -p --progress --mode production --config webpack.config.build.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://cvgellhorn@github.com/cvgellhorn/webpack-boilerplate.git"
-  },
   "dependencies": {
-    "lodash": "4.17.10"
+    "console-log-html": "2.0.2",
+    "lodash": "4.17.10",
+    "rxjs": "6.2.0"
   },
   "devDependencies": {
     "babel-core": "6.26.3",
